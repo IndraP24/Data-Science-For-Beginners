@@ -28,10 +28,13 @@ Depending on its source, raw data may contain some inconsistencies that will cau
 
 - **Missing Data**: Missing data can cause inaccuracies as well as weak or biased results. Sometimes these can be resolved by a "reload" of the data, filling in the missing values with computation and code like Python, or simply just removing the value and corresponding data. There are numerous reasons for why data may be missing and the actions that are taken to resolve these missing values can be dependent on how and why they went missing in the first place. 
 
-## Common cleaning strategies
+## Common Data Preparation Tasks
 
-The strategies to clean  
-- ****
+- **Data Cleaning**: It deals with the "dirty" data and fixes the mistakes and errors present in the data in a systematic way. It addresses formatting, duplication and missing data mentioned above and might also involve replacing some observations(which might be incorrect) with new, meaningful values. On a deeper level, data cleaning requires domain expertise which will help in identifying obvious erroneous values present in data. Some general data cleaning opeartions are:
+  - Identification and removal of common formatting mistakes.
+  - Identification and removal of duplicate rows or columns of data.
+  - Identification of empty values and marking them as missing.
+  - Either imputation or removal of the marked missing data.
 
 ## 🚀 Challenge
 
