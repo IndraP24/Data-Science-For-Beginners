@@ -8,7 +8,7 @@
 
 
 
-Depending on its source, raw data may contain some inconsistencies that will cause challenges in analysis and modeling. In other words, this data can be categorized as “dirty” and will need to be cleaned up. This lesson focuses on techniques for cleaning and transforming the data to handle challenges of missing, inaccurate, or incomplete data. Topics covered in this lesson will utilize Python and the Pandas library and will be [demonstrated in the notebook](notebook.ipynb) within this directory.
+Depending on its source, raw data may contain some inconsistencies that will cause challenges in analysis and modeling. In other words, this data can be categorized as “dirty” and will need to be cleaned up. This step in a Data Science project is also referred to as data wrangling, data cleaning and data pre-processing. This lesson focuses on techniques for cleaning and transforming the data to handle challenges of missing, inaccurate, or incomplete data. Topics covered in this lesson will utilize Python and the Pandas library and will be [demonstrated in the notebook](notebook.ipynb) within this directory.
 
 ## The importance of cleaning data
 
@@ -18,7 +18,7 @@ Depending on its source, raw data may contain some inconsistencies that will cau
 
 - **Model accuracy**: Data that has been cleaned improves the accuracy of models that rely on it.
 
-## Common cleaning goals and strategies
+## Common cleaning goals
 
 - **Exploring a dataset**: Data exploration, which is covered in a [later lesson](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/15-analyzing) can help you discover data that needs to be cleaned up. Visually observing values within a dataset can set expectations of what that rest of it will look like, or provide an idea of the problems that can be resolved. Exploration can involve basic querying, visualizations, and sampling.
 
@@ -28,6 +28,10 @@ Depending on its source, raw data may contain some inconsistencies that will cau
 
 - **Missing Data**: Missing data can cause inaccuracies as well as weak or biased results. Sometimes these can be resolved by a "reload" of the data, filling in the missing values with computation and code like Python, or simply just removing the value and corresponding data. There are numerous reasons for why data may be missing and the actions that are taken to resolve these missing values can be dependent on how and why they went missing in the first place. 
 
+## Common cleaning strategies
+
+The strategies to clean  
+- ****
 
 ## 🚀 Challenge
 
