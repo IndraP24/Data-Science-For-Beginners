@@ -35,7 +35,7 @@ Depending on its source, raw data may contain some inconsistencies that will cau
   - Identification and removal of duplicate rows or columns of data.
   - Identification of empty values and marking them as missing.
   - Either imputation or removal of the marked missing data.
-
+- **Feature Selection**: It refers to the technique of selecting only the relevant input features and ignoring or removing the irrelevant ones to the target variable used for predictive tasks. Removing the irrelevant and redundant features which might result in reducing the accuracy of the model  as well as reducing the dimensionality of the dataset is very important and can be accomplished by this technique.
 ## 🚀 Challenge
 
 Give the exercises in the [notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb) a try!
